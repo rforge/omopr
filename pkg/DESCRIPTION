@@ -1,0 +1,13 @@
+Package: omopr
+Type: Package
+Title: OMOP CDM Databases using the Tidyverse
+Version: 0.1
+Date: 2020-06-13
+Author: Darren Wilkinson
+Maintainer: Darren Wilkinson <darren.wilkinson@ncl.ac.uk>
+Description: Utility functions for working with OMOP CDM databases using lazy dbplyr tibble references.
+License: LGPL-3
+Depends: R(>= 3.0.0), dbplyr, dplyr, DBI
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+
