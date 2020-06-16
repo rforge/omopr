@@ -22,12 +22,12 @@ concept_names(tibl, names = NULL, cin = omopr.global$cin,
   \item{fill}{If true, fill non-matching concept names with a string
     conversion of the concept ID.}
   \item{copy}{\code{copy} arg to be passed to
-    \code{\link[dplyr]{left_join}}. Will need to be \code{true} if input tibble is not
+    \code{left_join}. Will need to be \code{true} if input tibble is not
     a lazy reference, but will be very slow in that case. Work with lazy
     references as long as possible.}
 }
 \value{
-A named list with elements corresponding to \link[dbplyr]{dbplyr} lazy tibble references.
+A named list with elements corresponding to \code{dbplyr} lazy tibble references.
 }
 \seealso{\code{\link{omopr_init}}, \code{\link{row_counts}}}
 \examples{

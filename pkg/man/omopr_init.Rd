@@ -16,7 +16,7 @@ omopr_init(con, schema = NULL)
     include "public", "dbo", "omop", "cdm", "data", etc.}
 }
 \value{
-A named list with elements corresponding to \code{\link[dbplyr]{dbplyr}} lazy tibble references.
+A named list with elements corresponding to \code{dbplyr} lazy tibble references.
 }
 \seealso{\code{\link{concept_names}}, \code{\link{row_counts}}}
 \examples{

@@ -5,6 +5,7 @@ PKG=omopr
 VERSION=0.1
 
 DEFAULT:
+	cd www ; make
 	make check
 	make install
 
@@ -46,7 +47,7 @@ commit:
 	make update
 
 edit:
-	emacs Makefile README pkg/NAMESPACE pkg/DESCRIPTION pkg/man/*.Rd pkg/R/*.R vignettes/*.Rmd &
+	emacs Makefile README pkg/NAMESPACE pkg/DESCRIPTION pkg/man/*.Rd pkg/R/*.R pkg/vignettes/*.Rmd &
 
 # eof
 
