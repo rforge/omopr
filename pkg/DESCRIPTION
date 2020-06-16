@@ -1,7 +1,7 @@
 Package: omopr
 Type: Package
 Title: OMOP CDM Databases using the Tidyverse
-Version: 0.1
+Version: 0.2
 Date: 2020-06-13
 Author: Darren Wilkinson
 Maintainer: Darren Wilkinson <darren.wilkinson@ncl.ac.uk>
