@@ -7,8 +7,6 @@ vignette: >
   \usepackage[utf8]{inputenc}
 ---
 
-# omopr: OMOP CDM database querying using tidyverse tools
-
 ## Overview
 
 This small package contains a few utility functions for querying electronic health record (EHR) data in [OMOP Common Data Model](https://www.ohdsi.org/data-standardization/the-common-data-model/) databases using a `tidyverse` approach based on `dbplyr` lazy tibble references. This allows efficient in-database querying and data wrangling without explicit writing of SQL queries. This vignette assumes a basic familiarity with OMOP CDM databases and tidyverse tools such as `dplyr`. Anyone not familiar with `dbplyr` (note the `b`) should read the `dbplyr` vignette before proceeding further.
