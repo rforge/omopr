@@ -20,5 +20,8 @@ vignette("omopr")
 
 ## Development
 
-[R-Forge development page](https://r-forge.r-project.org/R/?group_id=2400)
+* [R-Forge project page](https://r-forge.r-project.org/projects/omopr)
+* [R-Forge development page](https://r-forge.r-project.org/R/?group_id=2400)
+
+
 
