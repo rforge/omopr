@@ -5,9 +5,8 @@
 FORCE:
 	make index.html
 
-
-index.html: index.md
-	pandoc index.md -t html5 -s -o index.html
+index.html: page.md
+	pandoc page.md -t html5 -s -o index.html
 
 
 edit:
