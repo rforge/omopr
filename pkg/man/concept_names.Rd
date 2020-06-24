@@ -31,10 +31,10 @@ A named list with elements corresponding to \code{dbplyr} lazy tibble references
 }
 \seealso{\code{\link{omopr_init}}, \code{\link{row_counts}}}
 \examples{
-\dontrun{
+con = omopr:::dummy_con()
+
 tRefs = omopr_init(con)
 tRefs[["measurement"]] %>% concept_names()
-}
 }
 
 \keyword{dbplyr}

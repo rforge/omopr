@@ -17,10 +17,10 @@ A tibble containing the table names and their row counts.
 }
 \seealso{\code{\link{omopr_init}}, \code{\link{concept_names}}}
 \examples{
-\dontrun{
+con = omopr:::dummy_con()
+
 tRefs = omopr_init(con)
 row_counts(tRefs)
-}
 }
 
 \keyword{dplyr}

@@ -20,12 +20,12 @@ A named list with elements corresponding to \code{dbplyr} lazy tibble references
 }
 \seealso{\code{\link{concept_names}}, \code{\link{row_counts}}}
 \examples{
-\dontrun{
-con = DBI::dbConnect(RPostgres::Postgres(), dbname = "omopdb")
+# con = DBI::dbConnect(RPostgres::Postgres(), dbname = "omopdb")
+con = omopr:::dummy_con()
+
 tRefs = omopr_init(con)
 tRefs[["person"]]
 row_counts(tRefs)
-}
 }
 
 \keyword{dbplyr}
