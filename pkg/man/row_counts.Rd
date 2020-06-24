@@ -17,7 +17,7 @@ A tibble containing the table names and their row counts.
 }
 \seealso{\code{\link{omopr_init}}, \code{\link{concept_names}}}
 \examples{
-con = omopr:::dummy_con()
+con = omopr:::dummy_con() # dummy connection to allow example to run
 
 tRefs = omopr_init(con)
 row_counts(tRefs)
