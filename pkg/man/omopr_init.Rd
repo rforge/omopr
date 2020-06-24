@@ -2,9 +2,9 @@
 \alias{omopr_init}
 \title{Initialise connection to OMOP CDM DB and get list of table references}
 \description{
-This function checks a connection to an OMOP CDM DB and creates and
-returns a list of lazy dbplyr table references corresponding to the
-available CDM tables.
+This function checks a connection to an 'OMOP' 'CDM' database and creates and
+returns a list of lazy 'dbplyr' table references corresponding to the
+available 'CDM' tables.
 }
 \usage{
 omopr_init(con, schema = NULL)
@@ -12,7 +12,7 @@ omopr_init(con, schema = NULL)
 \arguments{
   \item{con}{A database connection, such as returned by the function \code{\link[DBI]{dbConnect}}.}
   \item{schema}{Optional string name of a database schema in which the
-    OMOP CDM tables are stored. Potential examples
+    'OMOP' 'CDM' tables are stored. Potential examples
     include "public", "dbo", "omop", "cdm", "data", etc.}
 }
 \value{

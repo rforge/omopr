@@ -5,7 +5,7 @@
 This function accepts a (lazy) tibble and for each variable of the form
 \code{XXX_concept_id} adds a corresponding variable
 \code{XXX_concept_name} obtained by (left) joining against the
-\code{concept} table of the CDM.
+\code{concept} table of the 'CDM'.
 }
 \usage{
 concept_names(tibl, names = NULL, cin = omopr.global$cin,
@@ -34,7 +34,7 @@ A named list with elements corresponding to \code{dbplyr} lazy tibble references
 con = omopr:::dummy_con()
 
 tRefs = omopr_init(con)
-tRefs[["measurement"]] %>% concept_names()
+tRefs[["measurement"]] \%>\% concept_names()
 }
 
 \keyword{dbplyr}
