@@ -1,6 +1,6 @@
 \name{omopr_init}
 \alias{omopr_init}
-\title{Initialise connection to OMOP CDM DB and get list of table references}
+\title{Initialise connection to an 'OMOP' 'CDM' database and get list of table references}
 \description{
 This function checks a connection to an 'OMOP' 'CDM' database and creates and
 returns a list of lazy 'dbplyr' table references corresponding to the
