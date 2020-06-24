@@ -6,8 +6,8 @@ Date: 2020-06-17
 Author: Darren Wilkinson
 Maintainer: Darren Wilkinson <darren.wilkinson@ncl.ac.uk>
 Description: Utility functions for querying electronic health record (EHR) data in
-    OMOP Common Data Model <https://www.ohdsi.org/data-standardization/the-common-data-model/>
-    databases using a 'tidyverse' approach based on 'dbplyr' lazy tibble references.
+    'OMOP' Common Data Model <https://www.ohdsi.org/data-standardization/the-common-data-model/>
+    databases using a 'tidyverse' approach based on 'dbplyr' lazy queries.
     This allows efficient in-database querying and data wrangling without explicit
     writing of 'SQL' queries.
 License: LGPL-3
