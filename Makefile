@@ -2,7 +2,7 @@
 # Makefile for package checking building, installing, uninstalling, etc.
 
 PKG=omopr
-VERSION=0.2
+VERSION=0.3
 
 DEFAULT:
 	cd www ; make

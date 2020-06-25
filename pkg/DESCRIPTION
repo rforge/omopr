@@ -1,8 +1,8 @@
 Package: omopr
 Type: Package
 Title: OMOP CDM Databases using the Tidyverse
-Version: 0.2
-Date: 2020-06-17
+Version: 0.3
+Date: 2020-06-25
 Author: Darren Wilkinson
 Maintainer: Darren Wilkinson <darren.wilkinson@ncl.ac.uk>
 Description: Utility functions for querying electronic health record (EHR) data in
